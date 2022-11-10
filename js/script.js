@@ -65,8 +65,10 @@ marker.addTo(map);
 
 const navMain = document.querySelector(".navigation_main");
 const navToggle = document.querySelector(".navigation__toggle");
+const navigationUser = document.querySelector(".navigation-user")
 
 navMain.classList.remove("navigation_main--nojs");
+navigationUser.classList.remove("navigation-user--nojs");
 
 navToggle.addEventListener("click", function () {
   if (navMain.classList.contains("navigation_main--closed")) {
